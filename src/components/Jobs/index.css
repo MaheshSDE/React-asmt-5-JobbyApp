@@ -163,17 +163,19 @@
   font-family: 'Roboto';
   font-size: 15px;
   color: #ffffff;
+  border: none;
 }
 @media screen and (min-width: 768px) {
   .search-input {
     width: 87%;
     height: 48px;
+    border: none;
   }
 }
 
 .search-icon-button {
   height: 47px;
-  background-color: #475569;
+  background-color: transparent;
   border: none;
   cursor: pointer;
   outline: none;
@@ -183,7 +185,7 @@
 @media screen and (min-width: 768px) {
   .search-icon-button {
     height: 48px;
-    background-color: #475569;
+    background-color: transparent;
     border: none;
     padding-left: 10px;
     padding-top: 8px;
@@ -198,6 +200,6 @@
 
 .search-icon {
   font-size: 25px;
-  background-color: #475569;
+  background-color: transparent;
   color: #ffffff;
 }
